@@ -1,0 +1,144 @@
+body {
+	overflow-y: scroll;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+hr { 
+    border-color:#fff;
+    border-width: 2px;
+}
+
+.container{
+	width:70%;
+}
+
+.navbar{
+
+	background-color: #003366;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.row{
+	margin-left: 0.3%;
+	margin-right: 0.3%;
+}
+#topbar {
+	margin: 0;
+	padding: 1%;
+	height: auto;
+	background-color: rgb(245, 245, 245);
+	border: 1px solid #ccc;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: transparent;
+}
+
+.lang-choose {
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 160px;
+}
+.theme-choose {
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	float:right; 
+	width: 160px;
+}
+#settings{
+	display:inline;
+}
+
+#download{
+	margin-left: 50%;
+	display: inline;
+}
+
+#editor {
+	margin: 0;
+	padding: 0;
+	height: 400px;
+}
+.checkbox label{
+	color:#666666;
+}
+.input-container {
+	display: none;
+}
+
+.input-textarea {
+	border: 1px solid #aaa;
+	width: 100%;
+	height: 100px;
+}
+
+.outputbox {
+	margin-top: 20px;
+	display: none;
+	background-color: #fff;
+}
+
+.output-details {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #aaa;
+	border-style: dashed;
+	border-top: 0px;
+	background: #f2f2f2;
+}
+
+.correct {
+	display: inline-block;
+	margin-right: 6%;
+}
+
+.correct .key {
+	display: inline-block;
+	margin-right: 5px;
+	font-weight: 700;
+}
+
+.outputio .errorkey {
+	font-weight: 700;
+}
+
+.outputio{
+	padding: 15px 30px 30px;
+	border: 1px solid #aaa;
+	border-style: dashed;
+	background: #f2f2f2;
+	border-radius: 0px;
+}
+
+.outputerror .errormessage {
+	background: #ff7272;
+	border: 1px solid #faa;
+	padding: 10px;
+	color:#fff;
+	font-weight: 700;
+}
+
+.output-text{
+	background-color: #fff;
+	font-family: monospace;
+}
+.io-show, .outputerror {
+	margin-bottom: 3%;
+}
+
+footer {
+	margin-top: 2%;
+	padding: 1%;
+	border-top: 1px solid #aaa;
+	text-align: center;
+}

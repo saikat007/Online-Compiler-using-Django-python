@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"iter",
+				"itertools"
+			],
+			[
+				"sum",
+				"sum67"
+			],
+			[
+				"print",
+				"printAncestors"
+			],
+			[
+				"get",
+				"getLeafCount"
+			],
+			[
+				"loca",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/saikat/Desktop/trydjango18/src/templates/base.html",
+		"/home/saikat/Desktop/hackIDE/hackIDE_project/settings.py",
+		"/home/saikat/Desktop/hackIDE/hackIDE/views.py",
+		"/home/saikat/Desktop/hackIDE/hackIDE_project/wsgi.py",
+		"/home/saikat/Desktop/trydjango18/src/trydjango18/settings.py",
+		"/home/saikat/Desktop/trydjango18/src/trydjango18/urls.py",
+		"/home/saikat/Desktop/trydjango18/src/static_in_pro/our_static/css/custom.css",
+		"/opt/lampp/htdocs/helpros/Main.php",
+		"/home/saikat/Desktop/trydjango18/src/static_in_pro/our_static/js/custom.js",
+		"/home/saikat/Desktop/trydjango18/src/templates/index.html",
+		"/home/saikat/Desktop/trydjango18/src/ide/views.py",
+		"/home/saikat/Desktop/trydjango18/src/trydjango18/wsgi.py",
+		"/home/saikat/Desktop/codetable/codetable/wsgi.py",
+		"/home/saikat/Desktop/codetable/codetable/settings.py",
+		"/home/saikat/Desktop/t.html",
+		"/home/saikat/Desktop/trydjango18/src/templates/home.html",
+		"/home/saikat/Desktop/hackIDE/requirements.txt",
+		"/home/saikat/Desktop/hackIDE/README.md",
+		"/home/saikat/Desktop/trydjango18/src/newsletter/views.py",
+		"/opt/lampp/htdocs/compiler/sample.php",
+		"/opt/lampp/htdocs/compiler/hackapi.php",
+		"/home/saikat/Desktop/trydjango18/src/newsletter/admin.py",
+		"/home/saikat/Desktop/trydjango18/src/templates/build.html",
+		"/home/saikat/Desktop/trydjango18/src/static_in_pro/our_static/img/example.txt",
+		"/home/saikat/Desktop/trydjango18/src/newsletter/forms.py",
+		"/home/saikat/Desktop/trydjango18/src/newsletter/models.py",
+		"/home/saikat/my_stuffs/useful_commands",
+		"/home/saikat/Desktop/trydjango18/src/newsletter/templates/home.html",
+		"/home/saikat/Desktop/trydjango18/trydjango18.sublime-workspace",
+		"/home/saikat/Desktop/untitled.html",
+		"/opt/lampp/htdocs/helpros/assets/css/question_style.css",
+		"/opt/lampp/htdocs/helpros/AddQuestion.php",
+		"/opt/lampp/htdocs/helpros/Signup.php",
+		"/opt/lampp/htdocs/helpros/Login.php",
+		"/home/saikat/Desktop/Codes/merge_2arrays.cpp",
+		"/home/saikat/Desktop/Codes/merge.cpp",
+		"/home/saikat/Desktop/Codes/test.py",
+		"/home/saikat/Desktop/Assignment_12",
+		"/home/saikat/Desktop/Codes/todopy.txt",
+		"/home/saikat/Desktop/Codes/codeforces.py",
+		"/home/saikat/Desktop/Codes/fil.txt",
+		"/home/saikat/Desktop/Codes/aboutdict.txt",
+		"/opt/lampp/htdocs/helpros/check.txt",
+		"/home/saikat/Desktop/log.txt",
+		"/home/saikat/my_stuffs/IIT Kgp_Project/Question_rank/q_rank.py",
+		"/home/saikat/Desktop/tcpip.c",
+		"/home/saikat/Desktop/Assignment_11.txt",
+		"/home/saikat/my_stuffs/fast_IO.txt",
+		"/home/saikat/Desktop/Codes/cdva1601.py",
+		"/home/saikat/Desktop/Codes/ancestor.cpp",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_10.txt",
+		"/home/saikat/Downloads/4 bit xor lfsr code c++.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_9.txt",
+		"/home/saikat/Desktop/Assignment_9.txt",
+		"/opt/lampp/htdocs/railway_reserve/assets/css/login_style.css",
+		"/opt/lampp/htdocs/railway_reserve/Login.php",
+		"/opt/lampp/htdocs/railway_reserve/Showdetails.php",
+		"/opt/lampp/htdocs/helpros/assets/css/login_style.css",
+		"/home/saikat/Downloads/ideone_quLNgF.py",
+		"/home/saikat/sample.txt",
+		"/opt/lampp/htdocs/helpros/assets/css/signup_style.css",
+		"/opt/lampp/htdocs/helpros/logout.php",
+		"/opt/lampp/htdocs/railway_reserve/dest.php",
+		"/opt/lampp/htdocs/railway_reserve/banklogin.php",
+		"/opt/lampp/htdocs/railway_reserve/Signup.php",
+		"/opt/lampp/htdocs/helpros/connect_db.php",
+		"/opt/lampp/htdocs/railway_reserve/assets/css/signup_style.css",
+		"/opt/lampp/htdocs/railway_reserve/Start.php",
+		"/home/saikat/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/saikat/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/saikat/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/saikat/Desktop_folders/fast_IO.txt",
+		"/home/saikat/Desktop_folders/useful_commands",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_6.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_5.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_4.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_2.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_1.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_3.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_7.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment_8.txt",
+		"/home/saikat/Desktop/resume_master/resume.tex",
+		"/home/saikat/Desktop/fast_IO.txt",
+		"/home/saikat/Desktop/useful_commands",
+		"/home/saikat/Desktop/resume.tex",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/Assignment-4.txt",
+		"/home/saikat/Desktop/Codes/test.txt",
+		"/home/saikat/Desktop/resume.cls",
+		"/home/saikat/Desktop/OpJumble/test/t4.out",
+		"/home/saikat/Desktop/OpJumble/test/t1.out",
+		"/home/saikat/Desktop/Palindrome/test/t3.out",
+		"/home/saikat/Desktop/Palindrome/test/t5.out",
+		"/home/saikat/Desktop/Palindrome/test/t6.out",
+		"/home/saikat/Desktop/Palindrome/test/t2.out",
+		"/home/saikat/Desktop/Palindrome/test/t2",
+		"/home/saikat/Desktop/Palindrome/test/t1.out",
+		"/home/saikat/Downloads/Shadow Fight 2 v1.7.7 Mod( Apk+Obb)-XpoZ/Instructions.txt",
+		"/home/saikat/Desktop/resume-master/resume.tex",
+		"/home/saikat/Desktop/OddManOut/makefile",
+		"/home/saikat/Desktop/Codes/max_width.cpp",
+		"/home/saikat/Desktop/Assignment-4.txt",
+		"/home/saikat/Downloads/048fcca5-df3f-4dc5-8bd4-9700caccc2e6.txt",
+		"/home/saikat/Downloads/webd hidden message.txt",
+		"/home/saikat/Desktop/OddManOut/test/t3.out",
+		"/home/saikat/Desktop/OddManOut/test/t4.out",
+		"/home/saikat/Desktop/OddManOut/test/t4.log",
+		"/home/saikat/Desktop/OddManOut/test/t2",
+		"/home/saikat/Desktop/OddManOut/test/t4",
+		"/home/saikat/Desktop/OddManOut/test/t1",
+		"/home/saikat/Desktop/OpJumble/test/t3.out",
+		"/home/saikat/Desktop/Palindrome/test/t7",
+		"/home/saikat/Desktop/Palindrome/test/t5",
+		"/home/saikat/Desktop/Palindrome/test/t6",
+		"/home/saikat/Desktop/google_search.py",
+		"/home/saikat/Desktop/OpJumble/test/t1",
+		"/home/saikat/Desktop/OpJumble/test/t4",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/Assignments/se_assignment1.txt",
+		"/home/saikat/my_stuffs/IT_6th_sem/Software Engg/se_assignment1.txt",
+		"/home/saikat/Desktop/Assignment_2.txt",
+		"/home/saikat/Desktop/se_assignment1.txt",
+		"/home/saikat/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/saikat/Desktop/Codes/rbtree.cpp",
+		"/home/saikat/Downloads/submission_716449721825334.txt",
+		"/home/saikat/Downloads/submission_1181286188566711.txt",
+		"/home/saikat/Downloads/submission_1735526213347279.txt",
+		"/home/saikat/Desktop/Codes/child_sum.cpp",
+		"/home/saikat/Desktop/Codes/root_leaf.cpp",
+		"/home/saikat/Desktop/Codes/count_leaf.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hack",
+			"email",
+			"pc",
+			"func",
+			"users",
+			"]\ncodeintel",
+			"  ",
+			"]\n",
+			";\n",
+			")",
+			"background: url",
+			"header",
+			"image",
+			"image ",
+			"image"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

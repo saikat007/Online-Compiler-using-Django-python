@@ -1,0 +1,166 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Online Code Compiler | Internship Task</title>
+        <script src="{% static 'js/jquery.min.js' %}" type="text/javascript" charset="utf-8"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript" charset="utf-8"></script>
+        <script src="{% static 'ace-builds/src/ace.js' %}" type="text/javascript" charset="utf-8"></script>
+        <script src="{% static 'ace-builds/src/ext-statusbar.js' %}" type="text/javascript" charset="utf-8"></script>
+        <script src="{% static 'ace-builds/src/ext-language_tools.js' %}" type="text/javascript" charset="utf-8"></script>
+
+        <script src="{% static 'js/my_js.js' %}" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" type="text/css" href="{% static 'css/my_style.css' %}" />
+    </head>
+
+    <body>
+        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+
+		<nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a style="color:#fff;"class="navbar-brand" href="#">HackerEarth</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">MyIDE</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <h4 style="margin-left:16%">An Online Compiler tool developed using django/python</h4>
+    	<hr>
+        <br><br>
+
+        <div class="container">
+			<div id="topbar">
+				<div class="lang-choose">
+					<select class="form-control" name="lang" id="lang">
+						<option value="C">C (gcc 4.8.4)</option>
+						<option value="CPP" selected>C++ (g++ 4.8.4)</option>
+						<option value="CLOJURE">Clojure (clojure 1.1.0)</option>
+						<option value="CSS">CSS</option>
+                        <option value="CSHARP">C# (mono 3.2.8)</option>
+                        <option value="GO">Go (go 1.4.2)</option>
+						<option value="HASKELL">Haskell (ghc 7.4.1)</option>
+						<option value="JAVA">Java (openjdk 1.7.0_09)</option>
+						<option value="JAVASCRIPT">JavaScript (Rhino 1.7)</option>
+                        <option value="LISP">Lisp (csc 4.8.0.5)</option>
+						<option value="OBJECTIVEC">Objective-C (clang 3.3)</option>
+                        <option value="PASCAL">Pascal (fpc 2.6.2)</option>
+						<option value="PERL">Perl (perl 5.18.2)</option>
+						<option value="PHP">PHP (php 5.5.9)</option>
+						<option value="PYTHON">Python (python 2.7.6)</option>
+                        <option value="RUBY">Ruby (ruby 2.1.1)</option>
+						<option value="R">R (RScript 3.0.2)</option>
+						<option value="RUST">Rust (rustc 1.4.0)</option>
+						<option value="SCALA">Scala (scalac 2.9.2)</option>
+                        <option value="TEXTFILE">Text</option>
+					</select>
+
+				</div> 
+                <div id="settings">
+                    <div class="theme-choose">
+                        <select class="form-control" name="theme" id="theme">
+                            <option value="Light" selected>Light</option>
+                            <option value="Monokai">Monokai</option>
+                            <option value="Solarised Light">Solarised Light</option>
+                            <option value="Twilight">Twilight</option>
+                        </select>
+                    </div> 
+                    <a class="" id="download">
+                        download code
+                        <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    </a>
+                </div>
+			</div>
+			
+			<pre id="editor"></pre>
+
+			<div id="editor-statusbar">
+            </div>
+
+
+    		<div class="row">
+    			<div id="showres">
+    				<div class="pull-left user-input-area">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="user-input"> Use custom input for testing your code
+							</label>
+						</div>
+    				</div>
+
+    				<div style="margin-left:85.4%;"class="run-save-panel">
+	    				<button class="btn btn-success" id="runcode"  data-toggle="tooltip" data-placement="top" title="Compile and Run">Compile and Run</button>
+	    			</div>
+    			</div>
+    		</div> 
+
+    		<div class="row">
+				<div class="input-container">
+					<textarea id="custom-input" class="input-textarea" placeholder="Write inputs to program."></textarea>
+				</div>
+    		</div> 
+
+			<div class="outputbox">
+
+                <div class="outputio">
+                    <div class="outputerror">
+                        <div class="errorkey"></div>
+                        <pre class="errormessage"></pre>
+                    </div>
+
+                    <div class="io-show">
+                        <b>Output</b>
+                        <pre class="output-text outputo"> </pre>
+                        <b>Input</b>
+                        <pre class="output-text outputi"> </pre>
+                    </div>
+                </div>
+
+				<div class="output-details">
+                    <div class="correct log-details">
+                        <b>Log Details:</b>
+                        <div id="demo"></div>
+                        <script type="text/javascript">
+                            var myDate = new Date();
+                            var hours = myDate.getHours();
+                            var minutes = myDate.getMinutes();
+                            var ampm = hours >= 12 ? 'pm' : 'am';
+                            hours = hours % 12;
+                            hours = hours ? hours : 12;
+                            minutes = minutes < 10 ? '0'+minutes : minutes;
+                            var strTime = hours + ':' + minutes + ampm;
+                            document.getElementById("demo").innerHTML = myDate.getDate()+"/"+(parseInt(myDate.getMonth())+1).toString()+"/"+myDate.getFullYear()+" at "+strTime;
+                        </script>
+                    </div>
+                    <div class="correct time">
+                        <b>Time (sec)</b>
+                        <div class="value"></div>
+                    </div>
+                    <div class="correct memory">
+                        <b>Memory (KB)</b>
+                        <div class="value"></div>
+                    </div>
+					<div class="correct runstat">
+						<b>Run Status</b>
+						<div class="value"></div>
+					</div>
+					<div class="correct compilestat">
+						<b>Compile Status</b>
+						<div class="value"></div>
+					</div>
+				</div>
+			</div>
+    	</div> 
+
+        <footer class="container">
+            <span class="pull-right"> Copyright © 2016 Saikat Majumdar</span>
+        </footer>
+
+    </body>
+</html>
